@@ -11,6 +11,8 @@
 		AB18DE2F258222010032B5F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB18DE2E258222010032B5F6 /* ContentView.swift */; };
 		AB18DE31258222040032B5F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB18DE30258222040032B5F6 /* Assets.xcassets */; };
 		AB18DE34258222040032B5F6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB18DE33258222040032B5F6 /* Preview Assets.xcassets */; };
+		AB18DE3D258222330032B5F6 /* Light.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB18DE3C258222330032B5F6 /* Light.swift */; };
+		AB18DE41258225930032B5F6 /* ChangingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB18DE40258225930032B5F6 /* ChangingButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		AB18DE30258222040032B5F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB18DE33258222040032B5F6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AB18DE35258222040032B5F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB18DE3C258222330032B5F6 /* Light.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Light.swift; sourceTree = "<group>"; };
+		AB18DE40258225930032B5F6 /* ChangingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangingButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				AB18DE2C258222010032B5F6 /* trafficLigths_SwiftUIApp.swift */,
 				AB18DE2E258222010032B5F6 /* ContentView.swift */,
+				AB18DE3C258222330032B5F6 /* Light.swift */,
+				AB18DE40258225930032B5F6 /* ChangingButton.swift */,
 				AB18DE30258222040032B5F6 /* Assets.xcassets */,
 				AB18DE35258222040032B5F6 /* Info.plist */,
 				AB18DE32258222040032B5F6 /* Preview Content */,
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB18DE3D258222330032B5F6 /* Light.swift in Sources */,
 				AB18DE2F258222010032B5F6 /* ContentView.swift in Sources */,
 				AB18DE2D258222010032B5F6 /* trafficLigths_SwiftUIApp.swift in Sources */,
+				AB18DE41258225930032B5F6 /* ChangingButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
